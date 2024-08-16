@@ -1,0 +1,8 @@
+docker build -t mmcv https://github.com/open-mmlab/mmcv.git#main:docker/release \
+    --build-arg PYTORCH=2.0.0 \
+    --build-arg CUDA=11.3 \
+    --build-arg CUDNN=8 \
+    --build-arg MMCV=1.5.0 .
+
+
+docker run --name pytorch --gpus all -it pytorch/pytorch:2.0.0-cuda11.7-cudnn8-devel

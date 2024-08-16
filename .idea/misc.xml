@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="dino-gmflow" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.10.9 Docker (pytorch/pytorch:2.0.0-cuda11.7-cudnn8-devel)" project-jdk-type="Python SDK" />
+</project>
