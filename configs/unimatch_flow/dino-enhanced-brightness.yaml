@@ -1,0 +1,67 @@
+attn_splits_list:
+- 2
+- 8
+attn_type: swin
+batch_size: 12
+checkpoint_dir: tmp
+concat_flow_img: false
+corr_radius_list:
+- -1
+- 4
+count_time: false
+debug: false
+distributed: false
+eval: false
+evaluate_matched_unmatched: false
+feature_channels: 128
+ffn_dim_expansion: 4
+fwd_bwd_check: false
+gamma: 0.9
+gpu_ids: 0
+grad_clip: 1.0
+image_size:
+- 384
+- 512
+inference_dir: data/04-dino-gmflow/00-raw
+inference_size: null
+inference_video: null
+launcher: none
+local_rank: 0
+lr: 0.0004
+max_flow: 400
+no_resume_optimizer: false
+no_save_flo: false
+num_head: 1
+num_reg_refine: 6
+num_scales: 2
+num_steps: 100000
+num_transformer_layers: 6
+num_workers: 4
+output_path: data/04-dino-gmflow/output/03-gmflow
+padding_factor: 32
+pred_bidir_flow: false
+pred_bwd_flow: false
+prop_radius_list:
+- -1
+- 1
+reg_refine: true
+resume: pretrained/gmflow-scale2-regrefine6-mixdata-train320x576-4e7b215d.pth
+save_ckpt_freq: 10000
+save_eval_to_file: false
+save_flo_flow: false
+save_latest_ckpt_freq: 1000
+save_video: false
+save_vis_flow: false
+seed: 326
+stage: chairs
+strict_resume: false
+submission: false
+summary_freq: 100
+task: flow
+upsample_factor: 4
+val_dataset:
+- sintel
+val_freq: 10000
+val_things_clean_only: false
+weight_decay: 0.0001
+with_speed_metric: false

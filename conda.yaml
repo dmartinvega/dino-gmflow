@@ -1,4 +1,4 @@
-﻿name: dinov2-gmflow
+﻿name: dinov2-unimatch_experiments
 channels:
   - defaults
   - pytorch

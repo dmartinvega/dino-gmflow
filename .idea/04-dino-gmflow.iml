@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Remote Python 3.10.9 Docker (pytorch/pytorch:2.0.0-cuda11.7-cudnn8-devel)" jdkType="Python SDK" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/submodules/unimatch" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="unimatch" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/submodules/unimatch/unimatch" />
+        <option value="$MODULE_DIR$/submodules/unimatch/utils" />
+        <option value="$MODULE_DIR$/submodules/unimatch/scripts" />
+        <option value="$MODULE_DIR$/submodules/unimatch/loss" />
+      </list>
+    </option>
   </component>
 </module>
