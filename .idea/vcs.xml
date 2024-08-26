@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/submodules/unimatch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/submodules/utils" vcs="Git" />
   </component>
 </project>

@@ -1,3 +1,6 @@
 [submodule "submodules/unimatch"]
 	path = submodules/unimatch
 	url = git@github.com:dmartinvega/unimatch.git
+[submodule "submodules/utils"]
+	path = submodules/utils
+	url = git@github.com:dmartinvega/utils_cv.git

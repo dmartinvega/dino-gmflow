@@ -11,7 +11,7 @@ corr_radius_list:
 count_time: false
 debug: false
 distributed: false
-eval: false
+eval: true # original value: false
 evaluate_matched_unmatched: false
 feature_channels: 128
 ffn_dim_expansion: 4
@@ -22,7 +22,7 @@ grad_clip: 1.0
 image_size:
 - 384
 - 512
-inference_dir: data/04-dino-gmflow/00-raw
+inference_dir: data/04-dino-gmflow/output/02-enhanced-with-segmentation
 inference_size: null
 inference_video: null
 launcher: none
@@ -45,7 +45,7 @@ prop_radius_list:
 - -1
 - 1
 reg_refine: true
-resume: pretrained/gmflow-scale2-regrefine6-mixdata-train320x576-4e7b215d.pth
+resume: submodules/unimatch/pretrained/gmflow-scale2-regrefine6-mixdata-train320x576-4e7b215d.pth
 save_ckpt_freq: 10000
 save_eval_to_file: false
 save_flo_flow: false
@@ -53,6 +53,7 @@ save_latest_ckpt_freq: 1000
 save_video: false
 save_vis_flow: false
 seed: 326
+sintel_root: data/datasets/images/Sintel
 stage: chairs
 strict_resume: false
 submission: false

@@ -1,0 +1,2 @@
+input_directory: data/sidex-radarsat-motion-estimation/SIDEx radarsat motion estimation/experiments/hybrid_50m_HH_OSU-IT-23_40km_soft-near-motion-edges/03 motion/03.01 vectors
+output_path: data/sidex-radarsat-motion-estimation/SIDEx radarsat motion estimation/experiments/hybrid_50m_HH_OSU-IT-23_40km_gps-osu-clean/03 motion/03.07 flow_images
